@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="355" height="219" viewBox="0 0 355 219">
+  <g id="Group_9" data-name="Group 9" transform="translate(-256 -551)">
+    <path id="Rectangle_12" data-name="Rectangle 12" d="M0,0H355a0,0,0,0,1,0,0V0a20,20,0,0,1-20,20H20A20,20,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(256 750)" fill="#b6b6b6"/>
+    <path id="Rectangle_15" data-name="Rectangle 15" d="M0,0H46a0,0,0,0,1,0,0V0A10,10,0,0,1,36,10H10A10,10,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(409 750)" fill="#7d7d7d"/>
+    <path id="Rectangle_13" data-name="Rectangle 13" d="M20,0H320a20,20,0,0,1,20,20V199a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(263 551)" fill="#d9d9d9"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="318" height="176" rx="11" transform="translate(274 564)" fill="#c3ebff"/>
+    <text id="Builderoo" transform="translate(341 667)" fill="#2e3333" font-size="40" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Builderoo</tspan></text>
+  </g>
+</svg>
