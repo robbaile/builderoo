@@ -1,0 +1,33 @@
+.header {
+    max-width: 1100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(50% - 45vw);
+    padding-right: calc(50% - 45vw);
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.nav {
+    display: block;
+
+    &List {
+        display: flex;
+        z-index: 10;
+
+        &Item {
+            list-style: none;
+
+            &:nth-child(2) {
+                margin: 0 10px;
+            }
+        }
+    }
+}

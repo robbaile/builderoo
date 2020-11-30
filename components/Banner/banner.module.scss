@@ -1,0 +1,18 @@
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 155px;
+    padding-left: calc(50% - 45vw);
+    padding-right: calc(50% - 45vw);
+
+    &Strapline {
+        padding-bottom: 20px;
+        max-width: 500px;
+
+        & p {
+            font-size: 2rem;
+            font-weight: 900;
+        }
+    }
+}

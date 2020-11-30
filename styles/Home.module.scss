@@ -1,0 +1,53 @@
+.page {
+
+  &Top {
+    position: relative;
+    background-color: #8DB1FB;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 256px;
+      position: absolute;
+      right: 0;
+      top: -50px;
+      background-color: #4F86FA;
+      -webkit-transform: skewY(-6deg);
+      transform: skewY(-6deg);
+      -webkit-transform-origin: left;
+      transform-origin: left;
+    } 
+  }
+
+  &Content {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+.questionaire {
+  margin: 0 auto;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-left: calc(50% - 45vw);
+  padding-right: calc(50% - 45vw);
+  text-align: center;
+
+  &Heading {
+      font-size: 2em;
+      margin-bottom: 2rem;
+  }
+
+  &Flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 800px;
+      padding: 0 0 50px 0;
+      margin: 0 auto;
+
+      &Text {
+          max-width: 300px;
+      }
+  }
+}
