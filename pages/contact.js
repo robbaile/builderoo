@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Header/header';
 import Banner from '../components/Banner/banner';
 
-import styles from '../styles/Home.module.scss';
+import styles from '../styles/pages/Home.module.scss';
 
 export default function Contact() {
     return (
