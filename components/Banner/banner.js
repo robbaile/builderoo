@@ -8,15 +8,9 @@ export default function Banner() {
             <div className={bannerStyles.heroStrapline}>
                 <p>Your favourite merchants and materials, delivered to your door</p>
                 <div className={cardStyles.card}>
-                    <form className={formStyles.form} action="https://google.com/search" method="GET">
-                        <div>
-                            <label className={formStyles.formLabel} for="email">Get updated when we are up and running</label>
-                            <div className={formStyles.formRow}>
-                                <input className={formStyles.formInput} placeholder="e.g. johnsmith@gmail.com" type="email" name="email" />
-                                <button className={formStyles.formButton} type="submit">Sign up</button>
-                            </div>
-                        </div>
-                    </form>
+                    <p className={bannerStyles.heroSubText}>Help us out!</p>
+                    <a className={formStyles.formButton} target="_blank" href="https://jameswhitecross.typeform.com/to/wSmpyOQW">Take our questionaire</a>
+                    <p className={bannerStyles.heroSubText}>We are looking for feedback to get up and running soon!</p>
                 </div>
             </div>
             <div className={bannerStyles.imageContainer}>

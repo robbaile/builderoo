@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Banner from '../components/Banner/banner';
 import Footer from '../components/Footer/footer';
 import Header from '../components/Header/header';
-import styles from '../styles/Home.module.scss';
+import styles from '../styles/pages/Home.module.scss';
 import mainStyles from '../styles/components/main.module.scss';
 import flexStyles from '../styles/components/flex.module.scss';
 import formStyles from '../styles/components/form.module.scss';
