@@ -32,6 +32,7 @@ $color-blue-background: #4F86FA;
 }
 
 .questionaire {
+  background-color: #fff;
   margin: 0 auto;
   padding-top: 25px;
   padding-left: calc(50% - 45vw);
@@ -46,12 +47,13 @@ $color-blue-background: #4F86FA;
   &Flex {
       @include breakpoint(600px) {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         margin: 0 auto;
 
         &Text {
-          max-width: 300px;
+          max-width: 600px;
           margin-bottom: 0;
         }
       }

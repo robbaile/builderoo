@@ -45,7 +45,6 @@ export default function Home() {
                   </div>
               </div>
           </div>
-          <Email />
           <div className={styles.questionaire}>
               <h2 className={styles.questionaireHeading}>Take our questionaire</h2>
               <div className={styles.questionaireFlex}>
@@ -57,6 +56,7 @@ export default function Home() {
                   </div>
               </div>
           </div>
+          <Email />
         </main>
         <Footer />
       </div>
