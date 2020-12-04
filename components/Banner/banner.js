@@ -8,7 +8,7 @@ export default function Banner() {
             <div className={bannerStyles.heroStrapline}>
                 <p>Your favourite merchants and materials, delivered to your door</p>
                 <div className={cardStyles.card}>
-                    <p className={bannerStyles.heroSubText}>Help us out!</p>
+                    <p className={bannerStyles.heroText}>Help us out!</p>
                     <a className={formStyles.formButton} target="_blank" href="https://jameswhitecross.typeform.com/to/wSmpyOQW">Take our questionaire</a>
                     <p className={bannerStyles.heroSubText}>We are looking for feedback to get up and running soon!</p>
                 </div>
