@@ -10,17 +10,17 @@ export default function Banner() {
                 <div className={cardStyles.card}>
                     <form className={formStyles.form} action="https://google.com/search" method="GET">
                         <div>
-                            <label className={formStyles.formLabel} for="Postcode">Get updated when we are up and running</label>
+                            <label className={formStyles.formLabel} for="email">Get updated when we are up and running</label>
                             <div className={formStyles.formRow}>
-                                <input className={formStyles.formInput} placeholder="e.g. johnsmith@gmail.com" type="text" name="postcode" />
+                                <input className={formStyles.formInput} placeholder="e.g. johnsmith@gmail.com" type="email" name="email" />
                                 <button className={formStyles.formButton} type="submit">Sign up</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div>
-                <img src="/images/moped.svg" alt="" />
+            <div className={bannerStyles.imageContainer}>
+                <img className={bannerStyles.image} src="/images/moped.svg" alt="" />
             </div>
         </div>
     )

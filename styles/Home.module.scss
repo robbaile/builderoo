@@ -1,8 +1,14 @@
-.page {
+@import 'settings';
+@import './mixins/breakpoint';
 
+$color-blue: #8DB1FB;
+$color-blue-background: #4F86FA;
+
+
+.page {
   &Top {
     position: relative;
-    background-color: #8DB1FB;
+    background-color: $color-primary;
 
     &::before {
       content: "";
@@ -10,8 +16,8 @@
       height: 256px;
       position: absolute;
       right: 0;
-      top: -50px;
-      background-color: #4F86FA;
+      top: -20px;
+      background-color: $color-secondary;
       -webkit-transform: skewY(-6deg);
       transform: skewY(-6deg);
       -webkit-transform-origin: left;
@@ -27,27 +33,37 @@
 
 .questionaire {
   margin: 0 auto;
-  background-color: #fff;
-  padding-top: 50px;
+  padding-top: 25px;
   padding-left: calc(50% - 45vw);
   padding-right: calc(50% - 45vw);
   text-align: center;
 
   &Heading {
       font-size: 2em;
-      margin-bottom: 2rem;
+      margin-bottom: 25px;
   }
 
   &Flex {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      @include breakpoint(600px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+
+        &Text {
+          max-width: 300px;
+          margin-bottom: 0;
+        }
+      }
+      
+      text-align: center;
       max-width: 800px;
       padding: 0 0 50px 0;
-      margin: 0 auto;
-
+      
       &Text {
-          max-width: 300px;
+        padding-bottom: 10px;
       }
+
+
   }
 }

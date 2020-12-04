@@ -5,7 +5,8 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.logoContainer}>
-                <p className={styles.logo}>ToolShed</p>
+                <p className={styles.logoText}>ToolShed</p>
+                <img className={styles.logo} src="/images/logo.svg" alt="logo"/>
             </div>
             <nav className={styles.nav}>
                 <ul className={styles.navList}>
@@ -13,12 +14,6 @@ export default function Header() {
                         <Link  href="/">
                             <a className={styles.navItem} href="./home.html">Home</a>
                         </Link>
-                    </li>
-                    <li className={styles.navListItem}>
-                        <Link  href="/about">
-                            <a className={styles.navItem}>About</a>
-                        </Link>
-                        
                     </li>
                     <li className={styles.navListItem}>
                         <Link  href="/contact">

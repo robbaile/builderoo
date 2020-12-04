@@ -1,18 +1,40 @@
+@import '../../styles/mixins/breakpoint';
+
 .hero {
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 155px;
     padding-left: calc(50% - 45vw);
     padding-right: calc(50% - 45vw);
+
+    @include breakpoint(750px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 155px;
+    }
 
     &Strapline {
         padding-bottom: 20px;
         max-width: 500px;
 
         & p {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: 900;
+
+            @include breakpoint(550px) {
+                font-size: 2rem;
+            }
         }
+    }
+}
+
+.image {
+    width: 50vw;
+    max-width: 400px;
+
+    &Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
     }
 }

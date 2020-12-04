@@ -1,6 +1,8 @@
+@import '../../styles/settings';
+
 .footer {    
-    background: #8DB1FB;
-    padding: 60px 0;
+    background: $color-primary;
+    padding: 30px 0;
 
     &Inner {
         max-width: 1100px;
@@ -14,7 +16,7 @@
     }
 
     &Link {
-        color: #2e3333;
+        color: $color-text;
         text-decoration: none;
         margin: 0 5px;
 

@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.scss';
 import mainStyles from '../styles/components/main.module.scss';
 import flexStyles from '../styles/components/flex.module.scss';
 import formStyles from '../styles/components/form.module.scss';
+import Email from '../components/Email/email';
 
 export default function Home() {
   return (
@@ -30,22 +31,23 @@ export default function Home() {
                   <div className={flexStyles.flexTrioItem}>
                       <img className={flexStyles.flexTrioIcon} src="../images/laptop.svg" alt="delivery" />
                       <p className={flexStyles.flexTrioTitle}>1. Buy entirely online</p>
-                      <p>You buy urgent resources from local merchants through builderoo</p>
+                      <p>You buy urgent resources from local merchants through ToolShed</p>
                   </div>
                   <div className={flexStyles.flexTrioItem}>
                       <img className={flexStyles.flexTrioIcon} src="../images/moped-2.svg" alt="delivery" />
                       <p className={flexStyles.flexTrioTitle}>2. Delivered to site</p>
-                      <p>We collect your order and have it delivered same day</p>
+                      <p>We collect your order and have it delivered in an hour</p>
                   </div>
                   <div className={flexStyles.flexTrioItem}>
                       <img className={flexStyles.flexTrioIcon} src="../images/crane.svg" alt="delivery" />
                       <p className={flexStyles.flexTrioTitle}>3. Maximum efficiency</p>
-                      <p>You continue building the future on the same day</p>
+                      <p>Saving precious time on your program</p>
                   </div>
               </div>
           </div>
+          <Email />
           <div className={styles.questionaire}>
-              <h2 className={styles.questionaireHeading}>Help us out</h2>
+              <h2 className={styles.questionaireHeading}>Take our questionaire</h2>
               <div className={styles.questionaireFlex}>
                   <div className={styles.questionaireFlexText}>
                       <p>We are looking for feedback to guage what our customers most want. Here is a questionaire to have your say!</p>
