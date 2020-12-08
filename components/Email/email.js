@@ -5,15 +5,11 @@ import styles from './email.module.scss';
 
 export default function Email() {
     const router = useRouter();
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         const email = e.target.elements.email.value;
-        
-        const emailPost = await Axios.post('https://toolshedco-email.herokuapp.com/email', {email});
-        console.log(emailPost);
-        if(emailPost.data.success === true) {
-            router.push('/success');
-        }
+        Axios.post('https://toolshedco-email.herokuapp.com/email', {email});
+        router.push('/success');
     }
     return (
         <div className={styles.container}>      
