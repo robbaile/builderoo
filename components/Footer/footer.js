@@ -9,8 +9,8 @@ export default function Footer() {
                 <div className={styles.footerLinks}>
                     <p>Copyright © 2020 ToolShedCo Ltd</p>
                     <div>
-                        <a className={styles.footerLink}  href="#0">About</a>
-                        <a className={styles.footerLink} href="#0">Contact</a>
+                        {/* <a className={styles.footerLink}  href="#0">About</a>
+                        <a className={styles.footerLink} href="#0">Contact</a> */}
                     </div>
                 </div>
             </div>

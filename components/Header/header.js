@@ -8,7 +8,7 @@ export default function Header() {
                 <p className={styles.logoText}>ToolShed</p>
                 <img className={styles.logo} src="/images/logo.svg" alt="logo"/>
             </div>
-            <nav className={styles.nav}>
+            {/* <nav className={styles.nav}>
                 <ul className={styles.navList}>
                     <li className={styles.navListItem}>
                         <Link  href="/">
@@ -21,7 +21,7 @@ export default function Header() {
                         </Link>
                     </li>
                 </ul>
-            </nav>
+            </nav> */}
         </header>
     )
   }

@@ -12,7 +12,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ToolShed</title>
+        <meta name="description" content="Delivering tools to you site within an hour"/>
+        <title>Delivering tools to you site within an hour || ToolShedCo</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;900&display=swap" rel="stylesheet"/>
