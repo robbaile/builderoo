@@ -8,7 +8,7 @@ export default function Email() {
     const handleSubmit = (e) => {
         e.preventDefault();
         const email = e.target.elements.email.value;
-        Axios.post('https://toolshedco-email.herokuapp.com/email', {email});
+        Axios.post('https://toolshed-email.herokuapp.com/api/email/new', {email});
         router.push('/success');
     }
     return (
