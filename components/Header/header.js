@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.logoContainer}>
-                <p className={styles.logoText}>ToolShed</p>
+                <p className={styles.logoText}>ToolDrop</p>
                 <img className={styles.logo} src="/images/logo.svg" alt="logo"/>
             </div>
             {/* <nav className={styles.nav}>
