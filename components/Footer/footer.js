@@ -5,9 +5,9 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={styles.footerInner}>
-                <p className={logoStyles.logo}>ToolShed</p>
+                <p className={logoStyles.logo}>ToolDrop</p>
                 <div className={styles.footerLinks}>
-                    <p>Copyright © 2020 ToolShedCo Ltd</p>
+                    <p>Copyright © 2020 ToolDrop Trading Ltd</p>
                     <div>
                         {/* <a className={styles.footerLink}  href="#0">About</a>
                         <a className={styles.footerLink} href="#0">Contact</a> */}
