@@ -11,7 +11,7 @@ export default function Email() {
         e.preventDefault();
         const email = e.target.elements.email.value;
         try {
-            const response = await Axios.post('http://localhost:5000/api/email/new', {email});
+            const response = await Axios.post('https://toolshed-email.herokuapp.com/api/email/new', {email});
             if(!response.data.success) {
                 setIsEmailError(true);
                 return;
